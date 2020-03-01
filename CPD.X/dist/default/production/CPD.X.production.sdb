@@ -1,0 +1,1247 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F14K50 ]
+[d frameptr 4065 ]
+"141 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device.c
+[e E2997 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"713
+[e E2938 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"2017
+[e E3006 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"12 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_events.c
+[e E232 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"13
+[e E300 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"133 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/keyboard_commands.c
+[e E291 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"108
+[v _APP_KeyboardInit APP_KeyboardInit `(v  1 e 1 0 ]
+"127
+[v _APP_KeyboardTask APP_KeyboardTask `(v  1 e 1 0 ]
+"212
+[v _USBHIDCBSetReportComplete USBHIDCBSetReportComplete `(v  1 s 1 USBHIDCBSetReportComplete ]
+"216
+[v _USBHIDCBSetReportHandler USBHIDCBSetReportHandler `(v  1 e 1 0 ]
+"220
+[v _USBHIDCBSetIdleRateHandler USBHIDCBSetIdleRateHandler `(v  1 e 1 0 ]
+"229
+[v _lockKeyWinCodes lockKeyWinCodes `(v  1 s 1 lockKeyWinCodes ]
+"242
+[v _noKeyWinCodes noKeyWinCodes `(v  1 s 1 noKeyWinCodes ]
+"31 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/main.c
+[v _sysInterrupt sysInterrupt `IIH(v  1 e 1 0 ]
+"43
+[v _SYS_InterruptLow SYS_InterruptLow `IIL(v  1 e 1 0 ]
+"50
+[v _main main `(i  1 e 2 0 ]
+"73
+[v _lockScreen lockScreen `(v  1 e 1 0 ]
+"85
+[v _sensorTimerTick sensorTimerTick `(v  1 e 1 0 ]
+"117
+[v _sensorTimerStart sensorTimerStart `(v  1 e 1 0 ]
+"122
+[v _sensorTimerRestart sensorTimerRestart `(v  1 e 1 0 ]
+[v i2_sensorTimerRestart sensorTimerRestart `(v  1 e 1 0 ]
+"132
+[v _pinInit pinInit `(v  1 e 1 0 ]
+"152
+[v _Sensor_Timer_Init Sensor_Timer_Init `(v  1 e 1 0 ]
+"277 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+[v i2_USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+"477
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+"878
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+"995
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+[v i2_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+"1352
+[v _USBDeviceAttach USBDeviceAttach `(v  1 e 1 0 ]
+"1416
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 1 0 ]
+"1488
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 1 0 ]
+"1543
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 1 USBConfigureEndpoint ]
+"1616
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 1 USBCtrlEPServiceComplete ]
+"1771
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 1 USBCtrlTrfTxService ]
+"1852
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 1 USBCtrlTrfRxService ]
+"1968
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 1 USBStdSetCfgHandler ]
+"2043
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 1 USBStdGetDscHandler ]
+"2129
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 1 USBStdGetStatusHandler ]
+"2202
+[v _USBStallHandler USBStallHandler `(v  1 s 1 USBStallHandler ]
+"2245
+[v _USBSuspend USBSuspend `(v  1 s 1 USBSuspend ]
+"2303
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 1 USBWakeFromSuspend ]
+"2372
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 1 USBCtrlEPService ]
+"2465
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 1 USBCtrlTrfSetupHandler ]
+"2538
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 1 USBCtrlTrfOutHandler ]
+"2592
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 1 USBCtrlTrfInHandler ]
+"2686
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 1 USBCheckStdRequest ]
+"2754
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 1 USBStdFeatureReqHandler ]
+"3025
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 1 0 ]
+"153 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device_hid.c
+[v _USBCheckHIDRequest USBCheckHIDRequest `(v  1 e 1 0 ]
+"12 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_events.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+[v i2_memset memset `(*.39v  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+[s S2372 . 63 `[63]uc 1 report 63 0 ]
+"15 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/keyboard_commands.c
+[v _hid_rpt01 hid_rpt01 `CS2372  1 e 63 0 ]
+[s S2472 . 6 `*.39v 1 lastINTransmission 2 0 `*.39v 1 lastOUTTransmission 2 2 `uc 1 key 1 4 `uc 1 waitingForRelease 1 5 ]
+"86
+[v _keyboard keyboard `S2472  1 s 6 keyboard ]
+[s S2477 . 1 `uc 1 leftControl 1 0 :1:0 
+`uc 1 leftShift 1 0 :1:1 
+`uc 1 leftAlt 1 0 :1:2 
+`uc 1 leftGUI 1 0 :1:3 
+`uc 1 rightControl 1 0 :1:4 
+`uc 1 rightShift 1 0 :1:5 
+`uc 1 rightAlt 1 0 :1:6 
+`uc 1 rightGUI 1 0 :1:7 
+]
+"88
+[u S2486 . 1 `uc 1 value 1 0 `S2477 1 bits 1 0 ]
+[s S2489 . 8 `S2486 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
+`[6]uc 1 keys 6 2 ]
+[v _inputReport inputReport `S2489  1 s 8 inputReport ]
+[u S2493 . 1 `uc 1 value 1 0 ]
+"90
+[v _outputReport outputReport `VES2493  1 s 1 outputReport ]
+[s S2477 . 1 `uc 1 leftControl 1 0 :1:0 
+`uc 1 leftShift 1 0 :1:1 
+`uc 1 leftAlt 1 0 :1:2 
+`uc 1 leftGUI 1 0 :1:3 
+`uc 1 rightControl 1 0 :1:4 
+`uc 1 rightShift 1 0 :1:5 
+`uc 1 rightAlt 1 0 :1:6 
+`uc 1 rightGUI 1 0 :1:7 
+]
+"103
+[u S2486 . 1 `uc 1 value 1 0 `S2477 1 bits 1 0 ]
+[s S2489 . 8 `S2486 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
+`[6]uc 1 keys 6 2 ]
+[v _oldInputReport oldInputReport `S2489  1 e 8 0 ]
+"104
+[v _keyboardIdleRate keyboardIdleRate `i  1 e 2 0 ]
+"105
+[v _LocalSOFCount LocalSOFCount `i  1 e 2 0 ]
+"106
+[v _OldSOFCount OldSOFCount `i  1 s 2 OldSOFCount ]
+"12 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/main.c
+[v _countSeconds countSeconds `i  1 e 2 0 ]
+"13
+[v _locked locked `uc  1 e 1 0 ]
+"14
+[v _locking locking `uc  1 e 1 0 ]
+"15
+[v _preWarnTimeElepased preWarnTimeElepased `uc  1 e 1 0 ]
+"16
+[v _PowerOffPeripherals PowerOffPeripherals `uc  1 e 1 0 ]
+[s S492 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `ui 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `ui 1 idVendor 2 8 `ui 1 idProduct 2 10 `ui 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+"38 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_descriptors.c
+[v _device_dsc device_dsc `CS492  1 e 18 0 ]
+"57
+[v _configDescriptor1 configDescriptor1 `C[41]uc  1 e 41 0 ]
+[s S507 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]ui 1 string 2 2 ]
+"107
+[v _sd000 sd000 `CS507  1 e 4 0 ]
+[s S511 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]ui 1 string 50 2 ]
+"112
+[v _sd001 sd001 `CS511  1 e 52 0 ]
+[s S515 . 40 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[19]ui 1 string 38 2 ]
+"119
+[v _sd002 sd002 `CS515  1 e 40 0 ]
+"125
+[v _USB_CD_Ptr USB_CD_Ptr `C[1]*.25Cuc  1 e 2 0 ]
+"131
+[v _USB_SD_Ptr USB_SD_Ptr `C[3]*.25Cuc  1 e 6 0 ]
+"141 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device.c
+[v _USBDeviceState USBDeviceState `VEE2997  1 e 1 0 ]
+"142
+[v _USBActiveConfiguration USBActiveConfiguration `VEuc  1 e 1 0 ]
+"143
+[v _USBAlternateInterface USBAlternateInterface `VE[1]uc  1 e 1 0 ]
+[s S563 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"144
+[s S572 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S579 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S583 _BD_STAT 1 `uc 1 Val 1 0 `S563 1 . 1 0 `S572 1 . 1 0 `S579 1 . 1 0 ]
+[s S588 . 4 `S583 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S593 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S597 __BDT 4 `S588 1 . 4 0 `S593 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.39VES597  1 e 2 0 ]
+"145
+[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.39VES597  1 e 2 0 ]
+"146
+[v _pBDTEntryOut pBDTEntryOut `[2]*.39VES597  1 e 4 0 ]
+"147
+[v _pBDTEntryIn pBDTEntryIn `[2]*.39VES597  1 e 4 0 ]
+"148
+[v _shortPacketStatus shortPacketStatus `VEuc  1 e 1 0 ]
+"149
+[v _controlTransferState controlTransferState `VEuc  1 e 1 0 ]
+[u S602 . 3 `*.2uc 1 bRam 3 0 `*.2Cuc 1 bRom 3 0 `*.2ui 1 wRam 3 0 `*.2Cui 1 wRom 3 0 ]
+"150
+[s S607 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
+`uc 1 reserved 1 0 :5:1 
+`uc 1 includeZero 1 0 :1:6 
+`uc 1 busy 1 0 :1:7 
+]
+[u S612 . 1 `S607 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S615 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[u S618 . 2 `ui 1 Val 2 0 `[2]uc 1 v 2 0 `S615 1 byte 2 0 ]
+[s S622 . 6 `S602 1 pSrc 3 0 `S612 1 info 1 3 `S618 1 wCount 2 4 ]
+[v _inPipes inPipes `VE[1]S622  1 e 6 0 ]
+[u S626 . 3 `*.2uc 1 bRam 3 0 `*.2ui 1 wRam 3 0 ]
+"151
+[s S629 . 1 `uc 1 reserved 1 0 :7:0 
+`uc 1 busy 1 0 :1:7 
+]
+[u S632 . 1 `S629 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S636 . 8 `S626 1 pDst 3 0 `S632 1 info 1 3 `S618 1 wCount 2 4 `*.37(v 1 pFunc 2 6 ]
+[v _outPipes outPipes `VE[1]S636  1 e 8 0 ]
+"152
+[v _pDst pDst `*.39VEuc  1 e 2 0 ]
+"153
+[v _RemoteWakeup RemoteWakeup `VEuc  1 e 1 0 ]
+"154
+[v _USBBusIsSuspended USBBusIsSuspended `VEuc  1 e 1 0 ]
+[s S641 . 1 `uc 1 filler1 1 0 :1:0 
+`uc 1 ping_pong 1 0 :1:1 
+`uc 1 direction 1 0 :1:2 
+`uc 1 endpoint_number 1 0 :4:3 
+]
+"155
+[u S646 __USTAT 1 `S641 1 . 1 0 `uc 1 Val 1 0 ]
+[v _USTATcopy USTATcopy `VES646  1 e 1 0 ]
+"156
+[v _endpoint_number endpoint_number `VEuc  1 e 1 0 ]
+"157
+[v _BothEP0OutUOWNsSet BothEP0OutUOWNsSet `VEuc  1 e 1 0 ]
+[s S649 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"158
+[u S652 . 1 `S649 1 bits 1 0 `uc 1 Val 1 0 ]
+[v _ep_data_in ep_data_in `VE[2]S652  1 e 2 0 ]
+"159
+[v _ep_data_out ep_data_out `VE[2]S652  1 e 2 0 ]
+"160
+[v _USBStatusStageTimeoutCounter USBStatusStageTimeoutCounter `VEuc  1 e 1 0 ]
+"161
+[v _USBDeferStatusStagePacket USBDeferStatusStagePacket `VEuc  1 e 1 0 ]
+"162
+[v _USBStatusStageEnabledFlag1 USBStatusStageEnabledFlag1 `VEuc  1 e 1 0 ]
+"163
+[v _USBStatusStageEnabledFlag2 USBStatusStageEnabledFlag2 `VEuc  1 e 1 0 ]
+"164
+[v _USBDeferINDataStagePackets USBDeferINDataStagePackets `VEuc  1 e 1 0 ]
+"165
+[v _USBDeferOUTDataStagePackets USBDeferOUTDataStagePackets `VEuc  1 e 1 0 ]
+"166
+[v _USB1msTickCount USB1msTickCount `VEul  1 e 4 0 ]
+"167
+[v _USBTicksSinceSuspendEnd USBTicksSinceSuspendEnd `VEuc  1 e 1 0 ]
+"174
+[v _BDT BDT `VE[8]S597  1 e 32 @512 ]
+[s S655 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `ui 1 wValue 2 2 `ui 1 wIndex 2 4 `ui 1 wLength 2 6 ]
+"179
+[s S682 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S618 1 W_Value 2 2 `S618 1 W_Index 2 4 `S618 1 W_Length 2 6 ]
+[s S688 . 8 `uc 1 Recipient 1 0 :5:0 
+`uc 1 RequestType 1 0 :2:5 
+`uc 1 DataDir 1 0 :1:7 
+`uc 1 . 1 1 :8:0 
+`uc 1 bFeature 1 2 `uc 1 . 1 3 :8:0 
+`uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S699 . 1 `uc 1 recipient 1 0 :5:0 
+`uc 1 type 1 0 :2:5 
+`uc 1 direction 1 0 :1:7 
+]
+[u S703 . 1 `uc 1 bmRequestType 1 0 `S699 1 . 1 0 ]
+[s S706 . 1 `S703 1 requestInfo 1 0 ]
+[s S708 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDscIndex 1 2 `uc 1 bDescriptorType 1 3 `ui 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S716 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S725 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bConfigurationValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S734 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S743 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S752 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 EPNum 1 4 :4:0 
+`uc 1 . 1 4 :3:4 
+`uc 1 EPDir 1 4 :1:7 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[u S763 . 8 `S655 1 . 8 0 `S682 1 . 8 0 `S688 1 . 8 0 `S706 1 . 1 0 `S708 1 . 8 0 `S716 1 . 8 0 `S725 1 . 8 0 `S734 1 . 8 0 `S743 1 . 8 0 `S752 1 . 8 0 ]
+[v _SetupPkt SetupPkt `VES763  1 e 8 @544 ]
+"180
+[v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @552 ]
+"79 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device_hid.c
+[v _idle_rate idle_rate `uc  1 s 1 idle_rate ]
+"80
+[v _active_protocol active_protocol `uc  1 s 1 active_protocol ]
+"10 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_events.c
+[v _SOFCounter SOFCounter `VEi  1 e 2 0 ]
+"52 C:/Program Files (x86)/Microchip/xc8/v2.10/pic/include\pic18f14k50.h
+[v _UEP0 UEP0 `VEuc  1 e 1 @3923 ]
+[s S1101 . 1 `uc 1 EPSTALL 1 0 :1:0 
+`uc 1 EPINEN 1 0 :1:1 
+`uc 1 EPOUTEN 1 0 :1:2 
+`uc 1 EPCONDIS 1 0 :1:3 
+`uc 1 EPHSHK 1 0 :1:4 
+]
+"80
+[s S1107 . 1 `uc 1 EP0STALL 1 0 :1:0 
+`uc 1 EP0INEN 1 0 :1:1 
+`uc 1 EP0OUTEN 1 0 :1:2 
+`uc 1 EP0CONDIS 1 0 :1:3 
+`uc 1 EP0HSHK 1 0 :1:4 
+]
+[s S1113 . 1 `uc 1 EPSTALL0 1 0 :1:0 
+`uc 1 EPINEN0 1 0 :1:1 
+`uc 1 EPOUTEN0 1 0 :1:2 
+`uc 1 EPCONDIS0 1 0 :1:3 
+`uc 1 EPHSHK0 1 0 :1:4 
+]
+[u S1119 . 1 `S1101 1 . 1 0 `S1107 1 . 1 0 `S1113 1 . 1 0 ]
+[v _UEP0bits UEP0bits `VES1119  1 e 1 @3923 ]
+"160
+[v _UEP1 UEP1 `VEuc  1 e 1 @3924 ]
+"916
+[v _UEIE UEIE `VEuc  1 e 1 @3931 ]
+"967
+[v _UADDR UADDR `VEuc  1 e 1 @3932 ]
+"1141
+[v _UEIR UEIR `VEuc  1 e 1 @3935 ]
+"1192
+[v _UIE UIE `VEuc  1 e 1 @3936 ]
+[s S855 . 1 `uc 1 URSTIE 1 0 :1:0 
+`uc 1 UERRIE 1 0 :1:1 
+`uc 1 ACTVIE 1 0 :1:2 
+`uc 1 TRNIE 1 0 :1:3 
+`uc 1 IDLEIE 1 0 :1:4 
+`uc 1 STALLIE 1 0 :1:5 
+`uc 1 SOFIE 1 0 :1:6 
+]
+"1208
+[u S863 . 1 `S855 1 . 1 0 ]
+[v _UIEbits UIEbits `VES863  1 e 1 @3936 ]
+"1248
+[v _UCFG UCFG `VEuc  1 e 1 @3937 ]
+"1308
+[v _UIR UIR `VEuc  1 e 1 @3938 ]
+[s S836 . 1 `uc 1 URSTIF 1 0 :1:0 
+`uc 1 UERRIF 1 0 :1:1 
+`uc 1 ACTVIF 1 0 :1:2 
+`uc 1 TRNIF 1 0 :1:3 
+`uc 1 IDLEIF 1 0 :1:4 
+`uc 1 STALLIF 1 0 :1:5 
+`uc 1 SOFIF 1 0 :1:6 
+]
+"1324
+[u S844 . 1 `S836 1 . 1 0 ]
+[v _UIRbits UIRbits `VES844  1 e 1 @3938 ]
+"1364
+[v _USTAT USTAT `VEuc  1 e 1 @3939 ]
+"1415
+[v _UCON UCON `VEuc  1 e 1 @3940 ]
+[s S816 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"1431
+[u S824 . 1 `S816 1 . 1 0 ]
+[v _UCONbits UCONbits `VES824  1 e 1 @3940 ]
+"2127
+[v _ANSEL ANSEL `VEuc  1 e 1 @3966 ]
+"2172
+[v _ANSELH ANSELH `VEuc  1 e 1 @3967 ]
+[s S77 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"2491
+[s S86 . 1 `uc 1 AN4 1 0 :1:0 
+`uc 1 AN5 1 0 :1:1 
+`uc 1 AN6 1 0 :1:2 
+`uc 1 AN7 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 AN8 1 0 :1:6 
+`uc 1 AN9 1 0 :1:7 
+]
+[s S94 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_SS 1 0 :1:6 
+]
+[s S97 . 1 `uc 1 C12INP 1 0 :1:0 
+`uc 1 C12IN1M 1 0 :1:1 
+`uc 1 C12IN2M 1 0 :1:2 
+`uc 1 C12IN3M 1 0 :1:3 
+`uc 1 C12OUT 1 0 :1:4 
+`uc 1 CCP1 1 0 :1:5 
+`uc 1 nSS 1 0 :1:6 
+]
+[s S105 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 PGM 1 0 :1:3 
+`uc 1 SRQ 1 0 :1:4 
+`uc 1 T0CKI 1 0 :1:5 
+`uc 1 T13CKI 1 0 :1:6 
+`uc 1 T1OSCO 1 0 :1:7 
+]
+[s S114 . 1 `uc 1 VREFP 1 0 :1:0 
+`uc 1 VREFM 1 0 :1:1 
+`uc 1 CVREF 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 T1OSCI 1 0 :1:6 
+]
+[s S120 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 P1D 1 0 :1:2 
+`uc 1 P1C 1 0 :1:3 
+`uc 1 P1B 1 0 :1:4 
+`uc 1 P1A 1 0 :1:5 
+`uc 1 SS 1 0 :1:6 
+`uc 1 SDO 1 0 :1:7 
+]
+[s S128 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S132 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S135 . 1 `S77 1 . 1 0 `S86 1 . 1 0 `S94 1 . 1 0 `S97 1 . 1 0 `S105 1 . 1 0 `S114 1 . 1 0 `S120 1 . 1 0 `S128 1 . 1 0 `S132 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES135  1 e 1 @3970 ]
+[s S269 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3175
+[u S287 . 1 `S269 1 . 1 0 `S77 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES287  1 e 1 @3988 ]
+[s S774 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 USBIE 1 0 :1:2 
+`uc 1 BCLIE 1 0 :1:3 
+`uc 1 EEIE 1 0 :1:4 
+`uc 1 C2IE 1 0 :1:5 
+`uc 1 C1IE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"3669
+[s S783 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIE 1 0 :1:6 
+]
+[u S786 . 1 `S774 1 . 1 0 `S783 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES786  1 e 1 @4000 ]
+[s S878 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 USBIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 C2IF 1 0 :1:5 
+`uc 1 C1IF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"3735
+[s S887 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIF 1 0 :1:6 
+]
+[u S890 . 1 `S878 1 . 1 0 `S887 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES890  1 e 1 @4001 ]
+[s S1016 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR3IP 1 0 :1:1 
+`uc 1 USBIP 1 0 :1:2 
+`uc 1 BCLIP 1 0 :1:3 
+`uc 1 EEIP 1 0 :1:4 
+`uc 1 C2IP 1 0 :1:5 
+`uc 1 C1IP 1 0 :1:6 
+`uc 1 OSCFIP 1 0 :1:7 
+]
+"3801
+[s S1025 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIP 1 0 :1:6 
+]
+[u S1028 . 1 `S1016 1 . 1 0 `S1025 1 . 1 0 ]
+[v _IPR2bits IPR2bits `VES1028  1 e 1 @4002 ]
+[s S346 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"6370
+[s S348 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S351 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S354 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S357 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S360 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S369 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S375 . 1 `S346 1 . 1 0 `S348 1 . 1 0 `S351 1 . 1 0 `S354 1 . 1 0 `S357 1 . 1 0 `S360 1 . 1 0 `S369 1 . 1 0 ]
+[v _RCONbits RCONbits `VES375  1 e 1 @4048 ]
+[s S241 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"6619
+[s S248 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S252 . 1 `S241 1 . 1 0 `S248 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES252  1 e 1 @4053 ]
+"6676
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"6683
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S311 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RABPU 1 0 :1:7 
+]
+"7065
+[s S314 . 1 `uc 1 RABIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRABPU 1 0 :1:7 
+]
+[s S323 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RABPU 1 0 :1:7 
+]
+[u S326 . 1 `S311 1 . 1 0 `S314 1 . 1 0 `S323 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES326  1 e 1 @4081 ]
+[s S24 . 1 `uc 1 RABIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RABIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"7142
+[s S33 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S42 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S46 . 1 `S24 1 . 1 0 `S33 1 . 1 0 `S42 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES46  1 e 1 @4082 ]
+"50 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"71
+} 0
+"132
+[v _pinInit pinInit `(v  1 e 1 0 ]
+{
+"148
+} 0
+"73
+[v _lockScreen lockScreen `(v  1 e 1 0 ]
+{
+"78
+[v lockScreen@i i `i  1 a 2 23 ]
+"81
+} 0
+"127 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/keyboard_commands.c
+[v _APP_KeyboardTask APP_KeyboardTask `(v  1 e 1 0 ]
+{
+"128
+[v APP_KeyboardTask@TimeDeltaMilliseconds TimeDeltaMilliseconds `i  1 a 2 20 ]
+"129
+[v APP_KeyboardTask@i i `uc  1 a 1 22 ]
+"130
+[v APP_KeyboardTask@needToSendNewReportPacket needToSendNewReportPacket `uc  1 a 1 19 ]
+"127
+[v APP_KeyboardTask@command command `i  1 p 2 15 ]
+"210
+} 0
+"242
+[v _noKeyWinCodes noKeyWinCodes `(v  1 s 1 noKeyWinCodes ]
+{
+[v noKeyWinCodes@keys keys `*.39uc  1 p 2 4 ]
+"252
+} 0
+"229
+[v _lockKeyWinCodes lockKeyWinCodes `(v  1 s 1 lockKeyWinCodes ]
+{
+[v lockKeyWinCodes@keys keys `*.39uc  1 p 2 4 ]
+"240
+} 0
+"995 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device.c
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+{
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S563 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"997
+[s S572 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S579 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S583 _BD_STAT 1 `uc 1 Val 1 0 `S563 1 . 1 0 `S572 1 . 1 0 `S579 1 . 1 0 ]
+[s S588 . 4 `S583 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S593 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S597 __BDT 4 `S588 1 . 4 0 `S593 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBTransferOnePacket@handle handle `*.39VES597  1 a 2 13 ]
+"995
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v USBTransferOnePacket@dir dir `uc  1 p 1 4 ]
+[v USBTransferOnePacket@data data `*.39uc  1 p 2 5 ]
+[v USBTransferOnePacket@len len `uc  1 p 1 7 ]
+"1000
+[v USBTransferOnePacket@ep ep `uc  1 a 1 12 ]
+"1047
+} 0
+"277
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+"279
+[v USBDeviceInit@i i `uc  1 a 1 12 ]
+"371
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"15
+[v memset@p p `*.39uc  1 a 2 10 ]
+"8
+[v memset@p1 p1 `*.39v  1 p 2 4 ]
+[v memset@c c `i  1 p 2 6 ]
+[v memset@n n `ui  1 p 2 8 ]
+"22
+} 0
+"1352 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device.c
+[v _USBDeviceAttach USBDeviceAttach `(v  1 e 1 0 ]
+{
+"1382
+} 0
+"152 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/main.c
+[v _Sensor_Timer_Init Sensor_Timer_Init `(v  1 e 1 0 ]
+{
+"172
+} 0
+"43
+[v _SYS_InterruptLow SYS_InterruptLow `IIL(v  1 e 1 0 ]
+{
+"48
+} 0
+"85
+[v _sensorTimerTick sensorTimerTick `(v  1 e 1 0 ]
+{
+"111
+} 0
+"122
+[v _sensorTimerRestart sensorTimerRestart `(v  1 e 1 0 ]
+{
+"128
+} 0
+"31
+[v _sysInterrupt sysInterrupt `IIH(v  1 e 1 0 ]
+{
+"41
+} 0
+"117
+[v _sensorTimerStart sensorTimerStart `(v  1 e 1 0 ]
+{
+"120
+} 0
+"122
+[v i2_sensorTimerRestart sensorTimerRestart `(v  1 e 1 0 ]
+{
+"128
+} 0
+"477 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device.c
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+{
+"479
+[v USBDeviceTasks@i i `uc  1 a 1 28 ]
+"827
+} 0
+"277
+[v i2_USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+[v i2USBDeviceInit@i USBDeviceInit `uc  1 a 1 8 ]
+"371
+} 0
+"2303
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 1 USBWakeFromSuspend ]
+{
+"2349
+} 0
+"2245
+[v _USBSuspend USBSuspend `(v  1 s 1 USBSuspend ]
+{
+"2286
+} 0
+"2202
+[v _USBStallHandler USBStallHandler `(v  1 s 1 USBStallHandler ]
+{
+"2227
+} 0
+"3025
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 1 0 ]
+{
+"3043
+} 0
+"2372
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 1 USBCtrlEPService ]
+{
+"2423
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"31
+[v memcpy@s s `*.39Cuc  1 a 2 8 ]
+"30
+[v memcpy@d d `*.39uc  1 a 2 6 ]
+"32
+[v memcpy@tmp tmp `uc  1 a 1 10 ]
+"27
+[v memcpy@d1 d1 `*.39v  1 p 2 0 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 2 ]
+[v memcpy@n n `ui  1 p 2 4 ]
+"41
+} 0
+"2465 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device.c
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 1 USBCtrlTrfSetupHandler ]
+{
+"2515
+} 0
+"1616
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 1 USBCtrlEPServiceComplete ]
+{
+"1748
+} 0
+"1488
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 1 0 ]
+{
+"1518
+} 0
+"2686
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 1 USBCheckStdRequest ]
+{
+"2733
+} 0
+"1968
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 1 USBStdSetCfgHandler ]
+{
+"1970
+[v USBStdSetCfgHandler@i i `uc  1 a 1 20 ]
+"2024
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\memset.c
+[v i2_memset memset `(*.39v  1 e 2 0 ]
+{
+[v i2memset@p memset `*.39uc  1 a 2 6 ]
+[v i2memset@p1 p1 `*.39v  1 p 2 0 ]
+[v i2memset@c c `i  1 p 2 2 ]
+[v i2memset@n n `ui  1 p 2 4 ]
+"22
+} 0
+"2129 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device.c
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 1 USBStdGetStatusHandler ]
+{
+[s S563 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2161
+[s S572 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S579 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S583 _BD_STAT 1 `uc 1 Val 1 0 `S563 1 . 1 0 `S572 1 . 1 0 `S579 1 . 1 0 ]
+[s S588 . 4 `S583 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S593 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S597 __BDT 4 `S588 1 . 4 0 `S593 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdGetStatusHandler@p p `*.39S597  1 a 2 1 ]
+"2184
+} 0
+"2043
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 1 USBStdGetDscHandler ]
+{
+"2112
+} 0
+"2754
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 1 USBStdFeatureReqHandler ]
+{
+[s S563 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2756
+[s S572 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S579 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S583 _BD_STAT 1 `uc 1 Val 1 0 `S563 1 . 1 0 `S572 1 . 1 0 `S579 1 . 1 0 ]
+[s S588 . 4 `S583 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S593 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S597 __BDT 4 `S588 1 . 4 0 `S593 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdFeatureReqHandler@p p `*.39S597  1 a 2 25 ]
+"2761
+[v USBStdFeatureReqHandler@pUEP pUEP `*.39uc  1 a 2 22 ]
+[s S649 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"2757
+[u S652 . 1 `S649 1 bits 1 0 `uc 1 Val 1 0 ]
+[v USBStdFeatureReqHandler@current_ep_data current_ep_data `S652  1 a 1 24 ]
+"2980
+} 0
+"12 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_events.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+{
+[v USER_USB_CALLBACK_EVENT_HANDLER@event event `E232  1 p 2 12 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.39v  1 p 2 14 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@size size `ui  1 p 2 16 ]
+"54
+} 0
+"153 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device_hid.c
+[v _USBCheckHIDRequest USBCheckHIDRequest `(v  1 e 1 0 ]
+{
+"241
+} 0
+"216 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/keyboard_commands.c
+[v _USBHIDCBSetReportHandler USBHIDCBSetReportHandler `(v  1 e 1 0 ]
+{
+"218
+} 0
+"220
+[v _USBHIDCBSetIdleRateHandler USBHIDCBSetIdleRateHandler `(v  1 e 1 0 ]
+{
+[v USBHIDCBSetIdleRateHandler@reportID reportID `uc  1 a 1 wreg ]
+[v USBHIDCBSetIdleRateHandler@reportID reportID `uc  1 a 1 wreg ]
+[v USBHIDCBSetIdleRateHandler@newIdleRate newIdleRate `uc  1 p 1 0 ]
+"224
+[v USBHIDCBSetIdleRateHandler@reportID reportID `uc  1 a 1 1 ]
+"227
+} 0
+"108
+[v _APP_KeyboardInit APP_KeyboardInit `(v  1 e 1 0 ]
+{
+"125
+} 0
+"995 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device.c
+[v i2_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+{
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S563 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+[s S572 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S579 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S583 _BD_STAT 1 `uc 1 Val 1 0 `S563 1 . 1 0 `S572 1 . 1 0 `S579 1 . 1 0 ]
+[s S588 . 4 `S583 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S593 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S597 __BDT 4 `S588 1 . 4 0 `S593 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v i2USBTransferOnePacket@handle USBTransferOnePacket `*.39VES597  1 a 2 9 ]
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v i2USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v i2USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v i2USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1000
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 8 ]
+"1047
+} 0
+"878
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+{
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+"880
+[v USBEnableEndpoint@p p `*.39uc  1 a 2 9 ]
+"878
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+[v USBEnableEndpoint@options options `uc  1 p 1 8 ]
+"884
+[v USBEnableEndpoint@ep ep `uc  1 a 1 11 ]
+"902
+} 0
+"1543
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 1 USBConfigureEndpoint ]
+{
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[s S563 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1545
+[s S572 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S579 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S583 _BD_STAT 1 `uc 1 Val 1 0 `S563 1 . 1 0 `S572 1 . 1 0 `S579 1 . 1 0 ]
+[s S588 . 4 `S583 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S593 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S597 __BDT 4 `S588 1 . 4 0 `S593 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBConfigureEndpoint@handle handle `*.39VES597  1 a 2 6 ]
+"1543
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[v USBConfigureEndpoint@direction direction `uc  1 p 1 0 ]
+"1549
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 5 ]
+"1585
+} 0
+"2538
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 1 USBCtrlTrfOutHandler ]
+{
+"2567
+} 0
+"1852
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 1 USBCtrlTrfRxService ]
+{
+"1854
+[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 1 ]
+"1855
+[v USBCtrlTrfRxService@i i `uc  1 a 1 0 ]
+"1947
+} 0
+"1416
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 1 0 ]
+{
+"1459
+} 0
+"2592
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 1 USBCtrlTrfInHandler ]
+{
+"2594
+[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 1 ]
+"2667
+} 0
+"212 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/keyboard_commands.c
+[v _USBHIDCBSetReportComplete USBHIDCBSetReportComplete `(v  1 s 1 USBHIDCBSetReportComplete ]
+{
+"214
+} 0
+"1771 C:\Users\tim\Dropbox\Computer Presence Detector\Code\Code/src/usb_device.c
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 1 USBCtrlTrfTxService ]
+{
+"1773
+[v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 0 ]
+"1825
+} 0

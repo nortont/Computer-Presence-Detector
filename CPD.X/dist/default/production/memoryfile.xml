@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\CPD.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>16384</length>
+      <used>9138</used>
+      <free>7246</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>768</length>
+      <used>207</used>
+      <free>561</free>
+    </memory>
+  </executable>
+</project>
